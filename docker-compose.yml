@@ -9,9 +9,9 @@ services:
       - PGID=1000
       - TZ=Europe/Warsaw
     volumes:
-      - /media/wd/transmission/config:/config
-      - /media/wd/transmission/downloads:/downloads
-      - /media/wd/transmission/watch:/watch
+      - /home/ubuntu/transmission/config:/config
+      - /home/ubuntu/transmission/downloads:/downloads
+      - /home/ubuntu/transmission/watch:/watch
     ports:
       - 9091:9091
       - 51413:51413
